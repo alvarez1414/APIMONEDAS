@@ -19,7 +19,7 @@ pipeline{
         stage('Construir imagen'){
             steps{
                 //dir("${DOCKER_BUILD_DIR}"){
-                    bat "docker build . -p ${DOCKER_IMAGE}"
+                    bat "docker build . -t ${DOCKER_IMAGE}"
                 //}
             }
         }
