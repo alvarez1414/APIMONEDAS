@@ -4,7 +4,7 @@ pipeline{
     environment{
         DOCKER_IMAGE = 'apimodenas'
         CONTAINER_NAME = 'dockerapimonedas'
-        DOCKER_NETWORK = 'dockerbdmonedas_red'
+        DOCKER_NETWORK = 'dockermonedas_red'
         //DOCKER_BUILD_DIR = 'presentacion'
         HOST_PORT = '9080'
         CONTAINER_PORT = '8080'
